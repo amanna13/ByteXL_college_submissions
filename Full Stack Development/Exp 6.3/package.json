@@ -1,0 +1,17 @@
+{
+  "name": "exp6.3-account-transfer",
+  "version": "1.0.0",
+  "description": "Account transfer demo with balance validation using Node.js, Express and MongoDB (no transactions)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0"
+  }
+}
