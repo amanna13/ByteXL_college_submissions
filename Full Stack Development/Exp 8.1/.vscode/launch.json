@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open in Browser (Starts dev server)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "npm: dev",
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}
